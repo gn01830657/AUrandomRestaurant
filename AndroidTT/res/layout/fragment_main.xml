@@ -42,7 +42,7 @@
         android:layout_height="wrap_content" >
 
         <CheckBox
-            android:id="@+id/checkBox1"
+            android:id="@+id/rice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -101,7 +101,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Large Text"
+            android:text="要吃什麼?"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 
@@ -114,7 +114,7 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="吃" />
 
     </LinearLayout>
 
