@@ -72,6 +72,11 @@ public class MainActivity extends Activity {
 		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(19,'鴻記','麵')");
 		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(20,'大埔鐵板燒','其他')");
 		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(21,'欣越','其他')");
+		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(22,'肯德基','速食')");
+		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(23,'冠霖','中式')");
+		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(24,'蔣媽','麵')");
+		db.execSQL("INSERT INTO AUfood (id,name,tag) VALUES(25,'THE FIRE','其他')");
+
 
 		tv = (TextView) findViewById(R.id.textView1);
 		cb_chinese = (CheckBox) findViewById(R.id.chinese);
